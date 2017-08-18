@@ -1,0 +1,16 @@
+[
+{
+	"modid": "altm",
+	"name": "Tutorial Mod",
+	"descripion": "Learning to mod",
+	"version": "0.1",
+	"mcversion": "1.12",
+	"url": "",
+	"updateUrl": "",
+	"authorList": ["AuroraLily"],
+	"credits": "The Forge guys and Loremaster",
+	"logoFile": "",
+	"screenshots": [],
+	"dependencies": []
+}
+]
