@@ -11,4 +11,28 @@ public class Reference
 	public static final String CLIENT_PROXY_CLASS = "com.auroralily.tutorial.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.auroralily.tutorial.proxy.ServerProxy";
 	
+	public static enum TutorialItems
+	{
+		OBSIDIAN_INGOT("obsidian_ingot", "ItemObsidianIngot");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		TutorialItems(String unlocalizedName, String registryName)
+		{
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName()
+		{
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName()
+		{
+			return registryName;
+		}
+	}
+	
 }

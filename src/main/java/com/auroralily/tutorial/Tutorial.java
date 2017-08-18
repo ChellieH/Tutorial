@@ -1,5 +1,6 @@
 package com.auroralily.tutorial;
 
+import com.auroralily.tutorial.init.ModItems;
 import com.auroralily.tutorial.proxy.CommonProxy;
 
 import net.minecraftforge.fml.common.Mod;
@@ -23,13 +24,14 @@ public class Tutorial
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		ModItems.init();
+		ModItems.register();
 	}
 	
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		
+		proxy.init();
 	}
 	
 	@EventHandler
